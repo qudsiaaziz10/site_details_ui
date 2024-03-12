@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains site_details_ui.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function site_details_ui_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the site_details_ui module.
+    case 'help.page.site_details_ui':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides a UI for editing and storing certain site details as configurations.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

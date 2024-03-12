@@ -1,0 +1,12 @@
+site_details_ui.group.admin:
+  title: 'Site Details UI'
+  route_name: system.admin_config_site_details_ui
+  parent: system.admin_config
+  description: 'Provide a UI for adding or editing the different site details.'
+  weight: 1001
+site_details_ui.site_details_configuration_form:
+  title: 'Site Details'
+  route_name: site_details_ui.site_details_ui_site_details_configuration_form
+  description: 'Add or edit the different site details.'
+  parent: site_details_ui.group.admin
+  weight: 0

@@ -1,0 +1,18 @@
+system.admin_config_site_details_ui:
+  path: '/admin/config/site-details-ui'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Site Details UI'
+  requirements:
+    _permission: 'administer site details'
+  options:
+    _admin_route: TRUE
+site_details_ui.site_details_ui_site_details_configuration_form:
+  path: '/admin/config/site-details-ui/site-details-configuration'
+  defaults:
+    _form: '\Drupal\site_details_ui\Form\SiteDetailsConfigurationForm'
+    _title: 'Site Details'
+  requirements:
+    _permission: 'administer site details'
+  options:
+    _admin_route: TRUE

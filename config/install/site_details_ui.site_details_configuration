@@ -1,0 +1,21 @@
+company_abbreviation: Company Abbreviation
+company_name: Company Name
+address:
+facebook:
+twitter:
+instagram:
+pinterest:
+youtube:
+linkedin:
+header_logo_fid:
+footer_logo_fid:
+mobile_logo_fid:
+header_logo_url:
+footer_logo_url:
+mobile_logo_url:
+primary-dark: '#0e0b0b'
+primary-light: '#fffa6b'
+secondary-dark: '#080b59'
+secondary-light: '#d9f2ab'
+tertiary-dark: '#5e2222'
+tertiary-light: '#e8c9c9'

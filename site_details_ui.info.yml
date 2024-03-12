@@ -1,0 +1,5 @@
+name: 'Site Details UI'
+type: module
+description: 'Provides a UI for editing and storing certain site details as configurations.'
+core_version_requirement: ^9 || ^10
+package: 'Custom'

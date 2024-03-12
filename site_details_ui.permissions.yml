@@ -1,0 +1,4 @@
+administer site details:
+  title: 'Administer site details'
+  description: 'Change company name, company abbreviation, address, social media URLs, logos, and colors.'
+  restrict access: true
